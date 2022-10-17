@@ -1,0 +1,169 @@
+@charset "utf-8";
+@import url("../common.css");
+
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    background-image: url(../image/textbook_sugaku.png);
+}
+
+header {
+    background-color: rgb(197, 197, 197);
+}
+
+#line {
+    border: 1px solid red;
+    padding: 0.5px;
+}
+
+main {
+    width: 1000px;
+    margin: 20px auto;
+}
+
+.menu_bar {
+    display: flex;
+    color: white;
+    padding: 11px 10px 11px 30px;
+    cursor: pointer;
+}
+
+.button_pm {
+    display: flex;
+    flex-grow: 1;
+    justify-content: right;
+}
+
+.press {
+    margin-top: 10px;
+}
+
+.text {
+    height: 25px;
+}
+.select {
+    width: 166.4px;
+    height: 29px;
+}
+
+.menu_main {
+    padding: 20px 30px;
+}
+
+#message {
+    width: 332px;
+    height: 25px;
+}
+
+#menu {
+    margin-top: 20px;
+}
+
+#menu1_tag {
+    background-image: url(../image/background-magenta.png);
+}
+
+#menu1_main {
+    background-color: rgb(255, 231, 255);
+}
+
+#menu2_tag {
+    background-image: url(../image/background-orange.png);
+}
+
+#menu2_main {
+    background-color: rgb(255, 238, 209);
+}
+
+#menu3_tag {
+    background-image: url(../image/background-green.png);
+}
+#menu3_main {
+    background-color: rgb(203, 255, 203);
+}
+
+#data_show > h2 {
+    margin: 20px 0 0;
+}
+
+#data_show > p {
+    margin: 20px 0;
+}
+
+#data_table > th {
+    border: 1px solid rgb(214, 214, 214);
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+}
+
+#table {
+    border: 1px solid rgb(214, 214, 214);
+	border-collapse: collapse;
+    width: 1000px;
+    padding: 20px 20px;
+}
+
+#normal {
+	border: 1px solid rgb(214, 214, 214);
+	border-collapse: collapse;
+    background-color: white;
+	text-align: center;
+    padding: 20px 3px;
+}
+
+#unset {
+	border: 1px solid rgb(214, 214, 214);
+	border-collapse: collapse;
+    background-color: white;
+	text-align: unset;
+    width: 350.84px;
+    padding: 5px 20px 5px 5px;
+}
+
+#nothing {
+	text-align: center;
+	color: red;
+    margin: 10% 0;
+}
+
+#no_data {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    margin-top: auto;
+    margin-bottom: 0px;
+}
+
+#footer_box {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.footer_box1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer_box1 ul {
+    display: flex;
+    list-style: none;
+}
+
+.footer_box1 ul li a, .footer_box1 p {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px 0 10px;
+}
